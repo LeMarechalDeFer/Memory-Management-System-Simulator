@@ -24,6 +24,9 @@ des blocs dans la liste.
 
 */
 
+void functionhelloword(){
+    printf("Hello, World!\n");
+}
 
 
 struct BlocMemoire {
@@ -44,7 +47,7 @@ int main(int argc, char *argv[]) {
     (void)argc;
     (void)argv;
 
-    
+    functionhelloword();
     printf("Hello, World!\n");
     return 0;
 }
